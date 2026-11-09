@@ -1,0 +1,296 @@
+<!doctype html>
+<html lang="ko">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#2C201D">
+  <title>Lil'Flops</title>
+
+  <!-- fonts -->
+  <link rel="stylesheet" href="css/font.css">
+
+  <!-- css -->
+  <link rel="stylesheet" href="css/styles.css">
+
+  <!-- favicon -->
+  <link rel="icon" href="./images/lil_favicon.svg" type="image/svg">
+</head>
+
+<body>
+  <canvas id="MouseCanvas"></canvas>
+
+  <nav class="floating-nav" aria-label="Main menu">
+    <button class="nav-toggle" aria-expanded="false" aria-label="메뉴 열기">
+      <img class="logo_side" src="images/LOGO.svg" alt="Lil'Flops">
+    </button>
+
+    <div class="nav-links-clip">
+      <ul class="nav-links">
+        <li><a href="#">ABOUT</a></li>
+        <li><a href="#">PRODUCTS</a></li>
+        <li><a href="#">ORDER</a></li>
+        <li><a href="#about">STORE</a></li>
+        <li><a href="#event">EVENT</a></li>
+        <li><a href="#notice">NOTICE</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <main>
+    <section class="hero snap" id="top" aria-label="메인 배너">
+      <div class="hero-inner">
+        <div class="banner" aria-roledescription="carousel" aria-label="메인 배너 슬라이드">
+          <div class="banner-slide active"></div>
+          <div class="banner-slide">
+            <video src="./video/banner_party.mp4" autoplay muted playsinline></video>
+          </div>
+          <div class="pagination" aria-label="배너 페이지"></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="letter-section snap" id="letter" aria-label="편지">
+      <div class="letter-scene">
+        <img class="tree tree-left" src="images/treebrownle 1.svg" alt="">
+        <img class="tree tree-right" src="images/treebrownri 1.svg" alt="">
+        <img class="lantern lantern-left" src="images/lan1.svg" alt="">
+        <img class="lantern lantern-right" src="images/lan2.svg" alt="">
+        <div class="letter-paper">
+          <img src="images/altpaper.png" alt="">
+          <div class="letter-copy">
+            <p class="dear">Dear You.</p>
+            <p>
+              들어보셨나요?
+              <br>숲 가장 깊은 곳, 오래된 저택에는
+              <br><span>꼬마유령</span>이 홀로 지내고 있어요.
+              <br>그 꼬마의 이름은 <span>Lil’Flops</span>. 자주 실패를 하다 보니 붙어버린 이름이랍니다.
+              <br>만들기도 서툴러 제대로 된 걸 만든 적이 드물지요.
+              <br>이번에도 무시무시한 <span>잭 오 랜턴</span>을 조각하려다
+              <br>헤벌레 웃고 있는 호박을 만들어버렸다네요.
+              <br>Lil’Flops는 또 울상이 되었죠.
+              <br>그런데 이번 실패를 다시 뒤돌아봤더니,
+              <br>글쎄 호박이 웃으며 <span>사탕</span>을 뱉어내더라는군요!
+            </p>
+            <p>
+              그 놀라운 실패의 소식을 전하기 위해
+              <br>Lil’Flops는 아주 오래된 편지지 한 장을 꺼내
+              <br>숲 너머 먼 곳의 당신에게 작은 <span>초대장</span>을 보냅니다.
+            </p>
+            <p>
+              달콤하고, 따뜻하고,
+              <br>그리고 조금 엉뚱한 실패들이 가득한 집.
+              <br>언제든
+              <br>Lil’Flops와 호박 친구가 있는 곳으로 찾아 오세요.
+              <br>문을 두드리고 들어오면
+              <br>어떤 일이 일어날지는 아무도 모른답니다.
+            </p>
+            <p>
+              어쩌면 오늘도 무언가에 실패할 수 있어요.
+              <br>그래도 괜찮아요.
+              <br>그 실패 끝에서
+              <br>사탕 하나쯤은 굴러나올지도 모르니까요.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="stores snap" id="store">
+      <div class="store-card store-one">
+        <div class="store-photo" role="img" aria-label="Lil'Flops 매장"></div>
+        <img class="store-paper" src="images/paper1.svg" alt="">
+        <div class="store-copy typing">
+          <h2>Lil'Flops</h2>
+          <p>
+            안개 낀 숲처럼 조성된 마당을 배경으로,
+            <br>할로윈 장식으로 꾸며진 인테리어가 기묘하고
+            <br>아기자기한 분위기를 자아냅니다.
+            <br>유령과 호박 모양의 사탕은 물론,
+            <br>매장에서만 맛볼 수 있는 시즌 디저트도
+            <br>함께 만날 수 있습니다.
+          </p>
+        </div>
+      </div>
+      <div class="store-card store-two">
+        <div class="store-photo" role="img" aria-label="Treat Drops Store 매장"></div>
+        <img class="store-paper" src="images/paper2.svg" alt="">
+        <div class="store-copy typing">
+          <h2>Treat Drops Store</h2>
+          <p>
+            문을 여는 순간
+            <br>달콤한 향기와 신비로운 분위기가
+            <br>반겨주는 판매점입니다.
+            <br>매장 뒤편의 아늑한 정원에서는 행사가 열립니다.
+            <br>도심 한가운데 일상 속,
+            <br>달콤한 디저트와 특별한 공간으로
+            <br>당신의 하루에 작은 마법을 걸어드립니다.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="products snap" id="products" aria-label="시즌 디저트">
+      <div class="product-track">
+        <article class="product" data-index="1"><img src="images/box1.png" alt="마카롱">
+          <div>
+            <h3>마카롱</h3>
+            <p>판매기간: 상시<br>호박맛은 아닌 마카롱</p>
+          </div>
+        </article>
+        <article class="product" data-index="2"><img src="images/box2.png" alt="호박 수프">
+          <div>
+            <h3>호박 수프</h3>
+            <p>판매기간: 10/01 ~ 1/31<br>호박과 소금만으로 만들어진 따뜻한 호박 수프</p>
+          </div>
+        </article>
+        <article class="product" data-index="3"><img src="images/box3.png" alt="시나몬 호박파이">
+          <div>
+            <h3>시나몬 호박파이</h3>
+            <p>판매기간: 상시<br>크림 듬뿍, 시나몬은 원하는 만큼</p>
+          </div>
+        </article>
+        <article class="product" data-index="4"><img src="images/box4.png" alt="유령떡 아이스크림콘">
+          <div>
+            <h3>유령떡 아이스크림콘</h3>
+            <p>판매기간: 4/01 ~ 9/30<br>아이스크림 두 스쿱에 유령떡을 얹은 콘</p>
+          </div>
+        </article>
+        <article class="product" data-index="5"><img src="images/box5.png" alt="스모어 라떼">
+          <div>
+            <h3>스모어 라떼</h3>
+            <p>판매기간: 9/01 ~ 2/28<br>초콜릿 칩, 초콜릿 소스에<br>마시멜로 시럽, 마시멜로 크림, 구운 마시멜로</p>
+            <p></p>
+          </div>
+        </article>
+        <article class="product" data-index="6"><img src="images/box6.png" alt="소울 케이크">
+          <div>
+            <h3>소울 케이크</h3>
+            <p>판매기간: 만성절 주간<br>견과류, 건과일 없이</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="about snap" id="about">
+      <div class="about-panel">
+        <img src="images/LOGO.svg" alt="Lil'Flops">
+        <p>호박 등불이 따스히 맞이하는 길을 따라
+          <br>걸으면 작은 서툶이 모인 공간에 이르게 됩니다.
+          <br>달콤함이 가득한 사탕 가게에서 즐거운 시간을.
+          <br>언제나 할로윈처럼 특별한 하루가 되길 바랍니다.
+          <br>Lil'Flops에 어서오세요.
+        </p>
+        <a href="#">ABOUT</a>
+      </div>
+    </section>
+
+    <section class="events snap" id="event" aria-label="행사">
+      <div class="event-list" role="list" aria-label="행사 목록">
+        <article class="event-card" role="listitem" tabindex="0" aria-expanded="false">
+          <div class="event-content">
+            <h2>트릭 오어 트릿</h2>
+            <p>10월 마지막 주 동안 할로윈 분장 행사가 열립니다.<br>할로윈 장식으로 꾸미고 사탕을 받을 수 있어요!</p>
+          </div>
+        </article>
+        <article class="event-card" role="listitem" tabindex="0" aria-expanded="false">
+          <div class="event-content">
+            <h2>할로윈 장식 만들기</h2>
+            <p>언제나 할로윈 기분.<br>가져가도 되고, 가게를 꾸며주셔도 좋습니다.</p>
+          </div>
+        </article>
+        <article class="event-card" role="listitem" tabindex="0" aria-expanded="false">
+          <div class="event-content">
+            <h2>보물찾기 대회</h2>
+            <p>어떤 보물이 숨어있을까요?<br>어디에? 어쩌면 방금 찾아본 그 곳에?</p>
+          </div>
+        </article>
+        <article class="event-card" role="listitem" tabindex="0" aria-expanded="false">
+          <div class="event-content">
+            <h2>호박 수프</h2>
+            <p>커다란 솥에 호박을 잔뜩 담아<br>젓고 젓고 또 저어봅시다!</p>
+          </div>
+        </article>
+        <article class="event-card" role="listitem" tabindex="0" aria-expanded="false">
+          <div class="event-content">
+            <h2>실패작 전시회</h2>
+            <p>저희는 또 실패합니다. 그리고 또 만들지요.<br>그러나 실패들이 꼭 버려져야 할까요?</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="notice snap" id="notice">
+      <div class="notice_content">
+        <div class="notice-list">
+          <article class="notice-card">
+            <img src="images/icon_candy.svg" alt="사탕 아이콘">
+
+            <span class="category">NOTICE</span>
+            <span>2026. 10. 30</span>
+            <p class="notice_title">2026년 10월 31일 할로윈 당일<br>사은품 이벤트 개최</p>
+            <p class="notice_detail">가게에 방문하시어 이벤트 메뉴를 구매하시면<br>특별한 선물을 드립니다!</p>
+          </article>
+          <article class="notice-card rightside">
+            <img src="images/icon_pie.svg" alt="파이 아이콘">
+
+            <span class="category">CAMPAIGN</span>
+            <span>2026. 10. 25</span>
+            <p class="notice_title">할로윈 위크 캠페인<br>한정 디저트 출시</p>
+            <p class="notice_detail">Trick or Treat 제비뽑기, 인증샷 챌린지 등<br>매장 이벤트도 진행 예정입니다.</p>
+          </article>
+          <article class="notice-card">
+            <img src="images/icon_delivery.svg" alt="배송 아이콘">
+
+            <span class="category">NOTICE</span>
+            <span>2026. 10. 01</span>
+            <p class="notice_title">10월 영업시간 알림 및<br>배송일정 안내</p>
+            <p class="notice_detail">10월 영업일이 다음과 같이 변경됩니다.<br>자세한 일정은 이미지를 참고해주세요!</p>
+          </article>
+        </div>
+
+        <div class="pumpkin">
+          <div class="candy_place">
+            <div class="pump_ani tot_trigger" id="stage">
+              <div class="trick_title tot_click" id="trickTitle" aria-hidden="true">
+                <p>TRICK</p>
+                <p>OR</p>
+                <p>TREAT!</p>
+              </div>
+
+              <div class="pumpkin_image">
+                <img src="images/pumpkin_object.svg" alt="호박" role="button" tabindex="0">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer snap">
+      <img id="footer-img-1" class="footer-img active" src="images/footer1.png" alt="">
+      <img id="footer-img-2" class="footer-img" src="images/footer2.png" alt="">
+
+      <div class="footer-inner">
+        <div class="footer_logo">
+          <a href="#"><img src="./images/LOGO_white.png" alt=""></a>
+        </div>
+        <p>
+          사업자등록번호 | 000-00-00000
+          <br>소재지 | ○○시 ○○로 000
+          <br>대표자명 | 정예령
+          <br>문의 | yeryeong99@naver.com
+          <br>
+          <br>COPYRIGHT Lil'Flops. All rights reserved.
+        </p>
+      </div>
+
+      <div class="illust-spot" id="landingSpot"></div>
+    </footer>
+  </main>
+
+  <!-- js -->
+  <script src="js/script.js"></script>
+</body>
+
+</html>
